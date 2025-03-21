@@ -20,7 +20,7 @@ const seo = {
 //Home Page
 const greeting = {
   title: "Heritiana Andrianjafison",
-  logo_name: "Heritiana A.",
+  logo_name: "Heritiana Andrianjafison.",
   nickname: "",
   subTitle:
     "Développeur web Full Stack passionné, j'allie innovation et performance pour concevoir des solutions robustes et évolutives. Expert en technologies modernes, je relève les défis avec créativité et professionnalisme pour offrir des résultats innovants.",
