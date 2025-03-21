@@ -27,7 +27,12 @@ class LogoLoader extends Component {
       <div className="logo-loader-container">
         {this.state.isSmallScreen ? (
           <div className="loader-container">
-            <div className="loader"></div>
+            <Hourglass
+              visible={true}
+              height="80"
+              width="80"
+              ariaLabel="hourglass-loading"
+            />
           </div>
         ) : (
           <div style={{ position: 'relative', display: 'inline-block' }}>
@@ -42,7 +47,6 @@ class LogoLoader extends Component {
                 left: '50%',
                 transform: 'translate(-50%, -50%)',
               }}
-              wrapperClass=""
               colors={['#FEFEFE', '#FEFEFE']}
             />
             
