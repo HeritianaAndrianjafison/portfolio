@@ -711,7 +711,7 @@ const contactPageData = {
     title: "Contactez-moi",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "Je suis disponible sur presque tous les réseaux sociaux. Vous pouvez m'envoyer un message, je répondrai dans les 24 heures. Je peux développer votre site sur mesure et vous aider avec React, Android, le Cloud et le développement Open Source.",
+      "Je suis disponible sur presque tous les réseaux sociaux. Vous pouvez m'envoyer un message, je répondrai dans les 24 heures. Je peux développer votre site sur mesure et vous aider avec Wordpress ,  React, Android, le Cloud et le développement Open Source.",
   },
   blogSection: {
     title: "Blogs",

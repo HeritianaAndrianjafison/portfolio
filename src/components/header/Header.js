@@ -60,7 +60,7 @@ class Header extends Component {
                   Formation
                 </NavLink>
               </li>
-              <li>
+              <li style={{ display: "none", alignItems: "center", gap: "10px" }}>
                 <NavLink
                   to="/experience"
                   tag={Link}
@@ -72,7 +72,7 @@ class Header extends Component {
                   Experience
                 </NavLink>
               </li>
-              <li>
+              <li style={{ display: "none", alignItems: "center", gap: "10px" }}>
                 <NavLink
                   to="/projects"
                   tag={Link}
