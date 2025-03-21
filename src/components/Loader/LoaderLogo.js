@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import { Hourglass } from 'react-loader-spinner';
 import "./LoaderLogo.css";
 
 class LogoLoader extends Component {
@@ -29,11 +30,29 @@ class LogoLoader extends Component {
             <div className="loader"></div>
           </div>
         ) : (
-          <img
-            src="/assets/l1.png"
-            alt="Logo Loader"
-            className="logo-loaders"
-          />
+          <div style={{ position: 'relative', display: 'inline-block' }}>
+            <Hourglass
+              visible={true}
+              height="80"
+              width="80"
+              ariaLabel="hourglass-loading"
+              wrapperStyle={{
+                position: 'absolute',
+                top: '35%',
+                left: '50%',
+                transform: 'translate(-50%, -50%)',
+              }}
+              wrapperClass=""
+              colors={['#FEFEFE', '#FEFEFE']}
+            />
+            
+            <img 
+              src="/assets/l1.png"
+              alt="Logo Loader"
+              className="logo-loaders"
+              style={{ display: 'block', width: '100%' }}
+            />
+          </div>
         )}
       </div>
     );
